@@ -1,22 +1,18 @@
 #include <eosio/eosio.hpp>
 #include <eosio/system.hpp>
 #include <eosio/asset.hpp>
-// #include <../../../atomicassets-contract/include/atomicassets.hpp>
 #include <map>
 #include <string>
 #include <iterator>
 #include <vector>
 #include <math.h>
-// #include <totalstake.hpp>
 using namespace eosio;
 using namespace std;
 
 using std::string;
 using std::vector;
 
-typedef uint128_t uuid;
 typedef uint64_t id_type;
-typedef string uri_type;
 typedef std::variant<
     int8_t, int16_t, int32_t, int64_t,
     uint8_t, uint16_t, uint32_t, uint64_t,
@@ -109,22 +105,7 @@ private:
   };
   typedef eosio::multi_index<name("adminlist"), admin> admins;
   admins _admin_list;
-
-  TABLE account
-  {
-
-    asset balance;
-
-    uint64_t primary_key() const { return balance.symbol.code().raw(); }
-  };
-  using account_index = eosio::multi_index<"accounts"_n, account>;
-
-  void sub_balance(name owner, asset value);
-  void add_balance(name owner, asset value, name ram_payer);
   void in_contract_transfer(name recipient, vector<id_type> assets_id, string msg);
-  asset getReward(name username, string selectLand);
-  void stake(name username, name receiver, vector<uint64_t> asset_ids, string msg);
-  void transferNFT(name from, name to, id_type id, string memo);
   void rewardNFT(
       name authorized_minter,
       name collection_name,

@@ -33,10 +33,10 @@ ACTION reaper::banstaker(name username)
   require_auth(username);
   auto itr = _staker_list.find(username.value);
   check(itr != _staker_list.end(), "That user is not a staker");
-  _banned_list.emplace(get_self(), [&](auto &row) {                       {
-    row.username = username;
-    _staker_list.erase(itr); 
-  });
+  _banned_list.emplace(get_self(), [&](auto &row)
+  row.username = username;
+    _staker_list.erase(itr);
+});
 }
 
 ACTION reaper::unstake(name username, vector<imeta> nftid_staked, string memo)
@@ -121,7 +121,8 @@ ACTION reaper::regmachine(name username, rewardmachine productMachine, string me
       rewardmachine updateMachine;
       updateMachine = productMachine;
       updateMachine.next_run = current_time + productMachine.production_time;
-      row.productionMachine.push_back(updateMachine); });
+      row.productionMachine.push_back(updateMachine);
+      });
   }
 }
 }
