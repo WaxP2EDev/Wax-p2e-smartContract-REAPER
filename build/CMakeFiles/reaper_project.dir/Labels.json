@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/wax/deferred/reaper/build/CMakeFiles/reaper_project"
+		},
+		{
+			"file" : "/wax/deferred/reaper/build/CMakeFiles/reaper_project.rule"
+		},
+		{
+			"file" : "/wax/deferred/reaper/build/CMakeFiles/reaper_project-complete.rule"
+		},
+		{
+			"file" : "/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-install.rule"
+		},
+		{
+			"file" : "/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-mkdir.rule"
+		},
+		{
+			"file" : "/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-download.rule"
+		},
+		{
+			"file" : "/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-update.rule"
+		},
+		{
+			"file" : "/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-patch.rule"
+		},
+		{
+			"file" : "/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-configure.rule"
+		},
+		{
+			"file" : "/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-build.rule"
+		},
+		{
+			"file" : "/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"reaper_project"
+		],
+		"name" : "reaper_project"
+	}
+}

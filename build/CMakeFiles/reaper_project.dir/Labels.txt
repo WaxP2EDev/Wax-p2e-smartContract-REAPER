@@ -1,0 +1,14 @@
+# Target labels
+ reaper_project
+# Source files and their labels
+/wax/deferred/reaper/build/CMakeFiles/reaper_project
+/wax/deferred/reaper/build/CMakeFiles/reaper_project.rule
+/wax/deferred/reaper/build/CMakeFiles/reaper_project-complete.rule
+/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-install.rule
+/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-mkdir.rule
+/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-download.rule
+/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-update.rule
+/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-patch.rule
+/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-configure.rule
+/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-build.rule
+/wax/deferred/reaper/build/reaper_project-prefix/src/reaper_project-stamp/reaper_project-test.rule
